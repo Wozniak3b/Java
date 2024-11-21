@@ -1,0 +1,9 @@
+2024-11-21 11:00:59.120487+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "photos" not found (candidates are: "PHOTOS"); SQL statement:
+SELECT "photos"."ID" AS "ID", "photos"."DATA" AS "DATA", "photos"."FILE_NAME" AS "FILE_NAME", "photos"."CONTENT_TYPE" AS "CONTENT_TYPE" FROM "photos" [42103-224]
+2024-11-21 11:01:58.798298+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "photos" not found (candidates are: "PHOTOS"); SQL statement:
+INSERT INTO "photos" ("CONTENT_TYPE", "DATA", "FILE_NAME") VALUES (?, ?, ?) [42103-224]
+2024-11-21 11:04:55.079928+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "photos" not found (candidates are: "PHOTOS"); SQL statement:
+SELECT "photos"."ID" AS "ID", "photos"."DATA" AS "DATA", "photos"."FILE_NAME" AS "FILE_NAME", "photos"."CONTENT_TYPE" AS "CONTENT_TYPE" FROM "photos" [42103-224]
